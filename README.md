@@ -11,7 +11,6 @@ Inicialmente, instalar os pré-requisitos e executar alguns comando django.
 É necessário instalar as seguintes dependências:
 
 * Django==1.11.9
-* django-rest-framework==0.1.0
 * django-rest-swagger==2.1.2
 * djangorestframework==3.7.7
 
