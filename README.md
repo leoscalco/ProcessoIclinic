@@ -39,10 +39,10 @@ python manage.py runserver
 ### Rotas
 
 * localhost:8000/: página inicial e documentação;
-** admin/: administração;
-** agendamentos/: lista de agendamentos (GET) e cadastro de novo agendamento (POST); 
+  * admin/: administração;
+  * agendamentos/: lista de agendamentos (GET) e cadastro de novo agendamento (POST); 
 
-** agendamentos/(?P<pk>[0-9]+)/: detalhe de agendamento (GET), atualização de agendamento (update) e exclusão de agendamento (DELETE).
+  * agendamentos/(?P<pk>[0-9]+)/: detalhe de agendamento (GET), atualização de agendamento (update) e exclusão de agendamento (DELETE).
 
 ## Executando os testes
 
