@@ -43,6 +43,26 @@ python manage.py runserver
   * agendamentos/: lista de agendamentos (GET) e cadastro de novo agendamento (POST); 
 
   * agendamentos/(?P<pk>[0-9]+)/: detalhe de agendamento (GET), atualização de agendamento (update) e exclusão de agendamento (DELETE).
+ 
+### Especificação do JSON
+
+Json referente à um agendamento, com paciente e procedimento aninhados:
+```
+ {
+        "id": 1,
+        "data": "2018-01-27",
+        "horario_inicio": "18:00:00",
+        "horario_fim": "18:40:00",
+        "paciente": {
+            "id": 1,
+            "nome": "Leonardo Scalco"
+        },
+        "procedimento": {
+            "id": 1,
+            "nome": "Procedimento B"
+        }
+    }
+```
 
 ## Executando os testes
 
